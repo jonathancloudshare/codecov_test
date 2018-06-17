@@ -8,7 +8,8 @@
     "webpack": "webpack",
     "spec": "webpack --config webpack.spec.config.js",
     "watchSpec": "webpack --config webpack.spec.config.js --watch",
-    "karma": "karma start"
+    "karma": "karma start",
+    "cc": "codecov -f \"coverage/lcov.info\""
   },
   "author": "",
   "license": "ISC",
@@ -42,10 +43,13 @@
     "worker-loader": "^0.8.0"
   },
   "devDependencies": {
+    "codecov": "^3.0.2",
+    "istanbul-instrumenter-loader": "^3.0.1",
     "jasmine": "^2.8.0",
     "jasmine-core": "^2.8.0",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^2.0.1",
     "karma-jasmine": "^1.1.2",
     "karma-sourcemap-loader": "^0.3.7",
     "puppeteer": "^1.5.0"

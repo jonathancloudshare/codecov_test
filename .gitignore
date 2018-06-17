@@ -1,3 +1,4 @@
 /myjs/dist/
 /myjs/distSpec/
 node_modules/
+/myjs/coverage/
