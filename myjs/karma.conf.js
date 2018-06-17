@@ -39,7 +39,7 @@ module.exports = function(config) {
     reporters: ['progress', 'coverage-istanbul'],
 
     coverageIstanbulReporter: {
-        reports: ["lcovonly"]
+        reports: ["lcovonly", "json"]
     },
 
     // web server port
