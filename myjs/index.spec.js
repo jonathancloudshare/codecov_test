@@ -13,5 +13,6 @@ describe("codecov_test", () => {
 
     it("fooThis()", () => {
         expect(foo.fooThis(5, 5)).toEqual(10);
+        expect(foo.fooThis(11, 5)).toEqual(6);
     });
 });
