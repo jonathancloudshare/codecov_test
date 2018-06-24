@@ -12,5 +12,10 @@ namespace ClassLibrary1
         {
             return $"hi {name}";
         }
+
+        public string SayBooHoo(string name)
+        {
+            return $"{name}, booo hoooo...";
+        }
     }
 }
