@@ -2,3 +2,9 @@
 /myjs/distSpec/
 node_modules/
 /myjs/coverage/
+.vs/
+/MyCSharp/ci/CoverageResult.xml
+/MyCSharp/ci/TestResult.xml
+bin/
+obj/
+packages/

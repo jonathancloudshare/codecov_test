@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-06-20 13:54:17Z" end-time="2018-06-20 13:54:18Z" duration="0.290203">
+  <command-line><![CDATA["C:\ProgramData\chocolatey\lib\nunit-console-runner\tools\nunit3-console.exe" ClassLibrary1Test\bin\Debug\ClassLibrary1.dll ClassLibrary1Test\bin\Debug\ClassLibrary1Test.dll ]]></command-line>
+  <test-suite type="Assembly" id="1-1" name="ClassLibrary1.dll" fullname="D:\code\codecov_test\MyCSharp\ClassLibrary1Test\bin\Debug\ClassLibrary1.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="No suitable tests found in 'D:\code\codecov_test\MyCSharp\ClassLibrary1Test\bin\Debug\ClassLibrary1.dll'.&#xA;Either assembly contains no tests or proper test driver has not been found." />
+    </properties>
+    <reason>
+      <message>No suitable tests found in 'D:\code\codecov_test\MyCSharp\ClassLibrary1Test\bin\Debug\ClassLibrary1.dll'.
+Either assembly contains no tests or proper test driver has not been found.</message>
+    </reason>
+  </test-suite>
+  <test-suite type="Assembly" id="2-1" name="ClassLibrary1Test.dll" fullname="D:\code\codecov_test\MyCSharp\ClassLibrary1Test\bin\Debug\ClassLibrary1Test.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="No suitable tests found in 'D:\code\codecov_test\MyCSharp\ClassLibrary1Test\bin\Debug\ClassLibrary1Test.dll'.&#xA;Either assembly contains no tests or proper test driver has not been found." />
+    </properties>
+    <reason>
+      <message>No suitable tests found in 'D:\code\codecov_test\MyCSharp\ClassLibrary1Test\bin\Debug\ClassLibrary1Test.dll'.
+Either assembly contains no tests or proper test driver has not been found.</message>
+    </reason>
+  </test-suite>
+</test-run>
