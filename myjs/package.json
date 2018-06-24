@@ -9,7 +9,7 @@
     "spec": "webpack --config webpack.spec.config.js",
     "watchSpec": "webpack --config webpack.spec.config.js --watch",
     "karma": "karma start",
-    "codecov": "codecov --disable=gcov -p .. -f \"coverage/coverage-final.json\""
+    "codecov": "npm run spec && karma start --single-run && codecov --disable=gcov -p .. -f \"coverage/coverage-final.json\""
   },
   "author": "",
   "license": "ISC",

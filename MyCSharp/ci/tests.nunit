@@ -1,0 +1,6 @@
+<NUnitProject>
+  <Settings activeconfig="Debug" appbase="..\ClassLibrary1Test\bin\Debug" />
+  <Config name="Debug">
+    <assembly path="ClassLibrary1Test.dll"/>
+  </Config>
+</NUnitProject>
