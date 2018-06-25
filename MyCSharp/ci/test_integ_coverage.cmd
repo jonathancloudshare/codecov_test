@@ -1,0 +1,1 @@
+@call %~dp0test_coverage.cmd IntegrationTests.txt csharp_integration
