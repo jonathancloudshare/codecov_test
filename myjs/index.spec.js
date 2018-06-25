@@ -15,4 +15,8 @@ describe("codecov_test", () => {
         expect(foo.fooThis(5, 5)).toEqual(10);
         expect(foo.fooThis(11, 5)).toEqual(6);
     });
+
+    it("fooThat()", () => {
+        expect(foo.fooThat(5, 5)).toEqual(0);
+    });
 });
