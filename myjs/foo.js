@@ -5,3 +5,11 @@ export function fooThis(a, b) {
         return a - b;
     }
 }
+
+export function fooThat(a, b) {
+    if (a > 15) {
+        return a + b;
+    } else {
+        return a - b;
+    }
+}
