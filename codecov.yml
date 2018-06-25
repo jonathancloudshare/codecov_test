@@ -2,12 +2,18 @@ coverage:
   status:
     project:
       csharp:
+        if_no_uploads: error
+        if_not_found: success
+        if_ci_failed: error
         flags: 
           - csharp_unit
           - csharp_integration
         paths: 
           - MyCSharp/
       js:
+        if_no_uploads: error
+        if_not_found: success
+        if_ci_failed: error
         flags: 
           - js_unit
         paths: 
