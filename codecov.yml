@@ -2,18 +2,13 @@ coverage:
   status:
     project:
       csharp:
-        # basic
-        target: auto
-        threshold: null
-        base: auto 
-        # advanced
-        branches: null
-        if_no_uploads: error
-        if_not_found: success
-        if_ci_failed: error
-        only_pulls: false
         flags: 
           - csharp_unit
           - csharp_integration
         paths: 
           - MyCSharp/
+      js:
+        flags: 
+          - js_unit
+        paths: 
+          - myjs/

@@ -21,4 +21,4 @@ opencover.console ^
     -targetargs:"%CI_DIR%\MyCSharp.nunit --testlist=%CI_DIR%\%TEST_LIST_FILE% -output %CI_DIR%\TestResult.xml" ^
     -filter:"+[ClassLibrary1]* -[ClassLibrary1Test]*" ^
     -register:user ^
-    -output:"%CI_DIR%\CoverageResult.xml" && codecov --file "%CI_DIR%\CoverageResult.xml" -c --flag %FLAG%
+    -output:"%CI_DIR%\CoverageResult.xml" && codecov --file "%CI_DIR%\CoverageResult.xml" --flag %FLAG%
