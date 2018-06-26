@@ -1,0 +1,1 @@
+@call %~dp0test_csharp_coverage.cmd UnitTests.txt csharp_unit

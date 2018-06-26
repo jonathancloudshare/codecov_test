@@ -1,8 +1,9 @@
-var path = require("path");
-var webpackConfig = require('./webpack.config');
+const path = require("path");
+const webpackConfig = require('./webpack.config');
 
 webpackConfig.entry = {bundle: "./index.spec"};
 webpackConfig.output.path = path.join(__dirname, "./distSpec");
+
 webpackConfig.module.rules.push({
     test: /\.jsx?$/,
     use: {
@@ -14,4 +15,6 @@ webpackConfig.module.rules.push({
     enforce: 'post',
     exclude: /node_modules|\.spec\.js$/,
 });
+
+
 module.exports = webpackConfig;

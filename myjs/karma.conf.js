@@ -39,7 +39,7 @@ module.exports = function(config) {
     reporters: ['progress', 'coverage-istanbul'],
 
     coverageIstanbulReporter: {
-        reports: ["lcovonly", "json"],
+        reports: ["json", "html"],
         fixWebpackSourcePaths: true,
     },
 
