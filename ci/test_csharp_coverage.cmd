@@ -22,5 +22,5 @@ opencover.console ^
     -register:user ^
     -output:"%CI_DIR%\CoverageResult.xml" && ^
 call reportgenerator -reports:"%CI_DIR%\CoverageResult.xml" -targetdir:"%CI_DIR%\Reports\%FLAG%" && ^
-call %CI_DIR%\run_codecov.cmd --file "%CI_DIR%\CoverageResult.xml" --flag %FLAG% -d
+call %CI_DIR%\run_codecov.cmd --file "%CI_DIR%\CoverageResult.xml" --flag %FLAG%
 @echo off
